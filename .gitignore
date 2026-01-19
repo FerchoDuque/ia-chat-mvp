@@ -1,0 +1,67 @@
+# Ignorar archivos de entorno virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Ignorar archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ignorar archivos de distribución
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignorar archivos de test y coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignorar archivos de logs
+logs/
+*.log
+
+# Ignorar archivos de configuración local
+.env.local
+.env.*.local
+
+# Ignorar modelos descargados (son grandes)
+models/*
+!models/.gitkeep
+
+# Ignorar bases de datos locales
+*.db
+*.sqlite
+
+# Ignorar archivos temporales de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignorar ChromaDB
+chroma/
+*.chroma
