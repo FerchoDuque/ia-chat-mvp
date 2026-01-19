@@ -61,7 +61,7 @@ Agentes-practica/
 │   │   └── agent_graph.py
 │   ├── tools/             # Herramientas para agentes
 │   │   └── tool_registry.py
-│   └── monitoring/        # Monitoreo y logging
+│   ├── monitoring/        # Monitoreo y logging
 │       ├── resource_monitor.py
 │       └── logger.py
 ├── config/                # Configuraciones
